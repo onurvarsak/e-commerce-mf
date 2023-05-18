@@ -1,6 +1,13 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
-  mode: "development", // this could be two mode(development, production)
+  mode: "development",
   devServer: {
     port: 8080,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+    }),
+  ],
 };
