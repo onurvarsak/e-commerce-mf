@@ -1,1 +1,1 @@
-console.log("Container Application index.js");
+import("./bootstrap");
