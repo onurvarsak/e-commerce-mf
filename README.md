@@ -28,3 +28,5 @@
    7. add html webpack plugin on webpack.config.js file
 
    8. add "serve": "webpack serve" on script part of package.json
+
+4. create same products application steps for container application.
